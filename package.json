@@ -1,0 +1,39 @@
+{
+  "name": "font-specimen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compare heading and body typeface candidates against your own site's colours, content and languages. Self-hosted, open-licensed fonts only.",
+  "license": "MIT",
+  "author": "Serkanbyx",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "fonts": "node scripts/fonts.ts",
+    "fonts:sync": "node scripts/fonts.ts --sync",
+    "notices": "node scripts/notices.ts",
+    "predev": "npm run fonts",
+    "dev": "vite",
+    "prebuild": "npm run fonts && npm run notices",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  }
+}

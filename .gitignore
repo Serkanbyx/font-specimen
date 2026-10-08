@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Downloaded by `npm run fonts`; redistributed with the build, never committed.
+public/fonts/
+public/THIRD_PARTY_NOTICES.txt
