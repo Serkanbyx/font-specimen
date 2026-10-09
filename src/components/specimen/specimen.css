@@ -9,7 +9,7 @@
   align-items: center;
   margin-bottom: var(--space-5);
   padding: var(--space-3) max(var(--gutter), calc((100% - var(--page-width)) / 2 + var(--gutter)));
-  background: rgb(255 255 255 / 0.97);
+  background: var(--bar);
   border-block: 1px solid var(--border);
 }
 

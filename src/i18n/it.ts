@@ -30,6 +30,10 @@ export const it: Messages = {
     legal: 'Note legali',
     privacy: 'Privacy',
     language: 'Lingua dell’interfaccia',
+    theme: 'Schema di colori',
+    themeSystem: 'Segui il sistema',
+    themeLight: 'Chiaro',
+    themeDark: 'Scuro',
   },
   footer: {
     fonts: 'Tutti i caratteri sono serviti da questo sito con la loro licenza aperta (SIL OFL 1.1 o Apache 2.0).',
@@ -312,7 +316,7 @@ export const it: Messages = {
     title: 'Privacy',
     lead: 'Questo sito è statico. Non ha codice lato server, account, cookie né analisi.',
     sections: [
-      { title: 'Dati che inserisci', text: 'Progetti, impostazioni e lingua dell’interfaccia sono conservati nella memoria locale del browser, su questo dispositivo. Non vengono inviati da nessuna parte. Cancellare i dati del sito o usare il pulsante sotto li rimuove.' },
+      { title: 'Dati che inserisci', text: 'Progetti, impostazioni, la lingua dell’interfaccia e lo schema di colori sono conservati nella memoria locale del browser, su questo dispositivo. Non vengono inviati da nessuna parte. Cancellare i dati del sito o usare il pulsante sotto li rimuove.' },
       { title: 'Link di condivisione', text: 'Un link di condivisione porta il progetto nel frammento dell’URL (dopo #). I browser non inviano il frammento al server, ma chi riceve il link può leggerne il contenuto.' },
       { title: 'Caratteri e altre richieste', text: 'Caratteri, script e stili sono serviti dalla stessa origine di questa pagina. Una Content-Security-Policy blocca le richieste verso altre origini.' },
       { title: 'Hosting', text: 'Chi ospita questi file può conservare registri di accesso ordinari (per esempio indirizzo IP e ora) secondo la propria informativa. Questo progetto non riceve né tratta quei registri.' },

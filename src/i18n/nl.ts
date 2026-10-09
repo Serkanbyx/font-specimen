@@ -30,6 +30,10 @@ export const nl: Messages = {
     legal: 'Juridisch',
     privacy: 'Privacy',
     language: 'Taal van de interface',
+    theme: 'Kleurenschema',
+    themeSystem: 'Systeem volgen',
+    themeLight: 'Licht',
+    themeDark: 'Donker',
   },
   footer: {
     fonts: 'Alle lettertypen worden vanaf deze site geleverd onder hun open licentie (SIL OFL 1.1 of Apache 2.0).',
@@ -312,7 +316,7 @@ export const nl: Messages = {
     title: 'Privacy',
     lead: 'Deze site is statisch. Er is geen servercode, geen accounts, geen cookies en geen analyse.',
     sections: [
-      { title: 'Gegevens die u invoert', text: 'Projecten, instellingen en de interfacetaal staan in de lokale opslag van uw browser op dit apparaat. Ze worden nergens heen gestuurd. Sitegegevens wissen of de knop hieronder verwijdert ze.' },
+      { title: 'Gegevens die u invoert', text: 'Projecten, instellingen, de interfacetaal en het kleurenschema staan in de lokale opslag van uw browser op dit apparaat. Ze worden nergens heen gestuurd. Sitegegevens wissen of de knop hieronder verwijdert ze.' },
       { title: 'Deellinks', text: 'Een deellink draagt het project in het URL-fragment (na #). Browsers sturen het fragment niet naar de server, maar wie de link krijgt kan de inhoud lezen.' },
       { title: 'Letters en andere verzoeken', text: 'Letters, scripts en stijlen komen van dezelfde oorsprong als deze pagina. Een Content-Security-Policy blokkeert verzoeken naar andere oorsprongen.' },
       { title: 'Hosting', text: 'De aanbieder die deze bestanden levert kan gewone toegangslogboeken bijhouden (zoals IP-adres en tijdstip) volgens het eigen privacybeleid. Dit project ontvangt of verwerkt die logboeken niet.' },

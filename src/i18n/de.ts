@@ -30,6 +30,10 @@ export const de: Messages = {
     legal: 'Rechtliches',
     privacy: 'Datenschutz',
     language: 'Sprache der Oberfläche',
+    theme: 'Farbschema',
+    themeSystem: 'System folgen',
+    themeLight: 'Hell',
+    themeDark: 'Dunkel',
   },
   footer: {
     fonts: 'Alle Schriften werden mit ihrer offenen Lizenz (SIL OFL 1.1 oder Apache 2.0) von dieser Website ausgeliefert.',
@@ -312,7 +316,7 @@ export const de: Messages = {
     title: 'Datenschutz',
     lead: 'Diese Website ist statisch. Sie hat keinen Servercode, keine Konten, keine Cookies und keine Analyse.',
     sections: [
-      { title: 'Daten, die Sie eingeben', text: 'Projekte, Einstellungen und die Oberflächensprache liegen im lokalen Speicher Ihres Browsers auf diesem Gerät. Sie werden nirgendwohin gesendet. Browserdaten löschen oder die Schaltfläche unten entfernt sie.' },
+      { title: 'Daten, die Sie eingeben', text: 'Projekte, Einstellungen, die Oberflächensprache und das Farbschema liegen im lokalen Speicher Ihres Browsers auf diesem Gerät. Sie werden nirgendwohin gesendet. Browserdaten löschen oder die Schaltfläche unten entfernt sie.' },
       { title: 'Freigabelinks', text: 'Ein Freigabelink trägt das Projekt im URL-Fragment (nach #). Browser senden das Fragment nicht an den Server, aber wer den Link erhält, kann den Inhalt lesen.' },
       { title: 'Schriften und andere Anfragen', text: 'Schriften, Skripte und Stile kommen von derselben Herkunft wie diese Seite. Eine Content-Security-Policy blockiert Anfragen an andere Herkünfte.' },
       { title: 'Hosting', text: 'Der Anbieter, der diese Dateien ausliefert, kann übliche Zugriffsprotokolle (etwa IP-Adresse und Zeitpunkt) nach seiner eigenen Datenschutzerklärung führen. Dieses Projekt erhält oder verarbeitet diese Protokolle nicht.' },

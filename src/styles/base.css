@@ -10,7 +10,12 @@
   --border-strong: #a8a29e;
   --accent: #1c1917;
   --accent-text: #ffffff;
+  --accent-hover: #44403c;
   --focus: #2563eb;
+  --bar: rgb(250 250 249 / 0.94);
+  --code-bg: #1c1917;
+  --code-text: #e7e5e4;
+  color-scheme: light;
   --success: #166534;
   --success-bg: #dcfce7;
   --warning: #9a3412;
@@ -28,6 +33,29 @@
   --space-6: 32px;
   --space-7: 48px;
   --space-8: 64px;
+}
+
+:root[data-theme='dark'] {
+  --bg: #1c1917;
+  --surface: #292524;
+  --surface-alt: #44403c;
+  --text: #fafaf9;
+  --muted: #d6d3d1;
+  --border: #78716c;
+  --border-strong: #a8a29e;
+  --accent: #fafaf9;
+  --accent-text: #1c1917;
+  --accent-hover: #e7e5e4;
+  --focus: #60a5fa;
+  --success: #86efac;
+  --success-bg: #14532d;
+  --warning: #fdba74;
+  --warning-bg: #7c2d12;
+  --danger: #fca5a5;
+  --bar: rgb(28 25 23 / 0.94);
+  --code-bg: #0c0a09;
+  --code-text: #e7e5e4;
+  color-scheme: dark;
 }
 
 @media (max-width: 1023px) {
@@ -281,7 +309,7 @@ table {
 }
 
 .button--primary:hover {
-  background: #44403c;
+  background: var(--accent-hover);
 }
 
 .button--danger {

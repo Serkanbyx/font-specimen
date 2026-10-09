@@ -30,6 +30,10 @@ export const pt: Messages = {
     legal: 'Informação legal',
     privacy: 'Privacidade',
     language: 'Idioma da interface',
+    theme: 'Esquema de cores',
+    themeSystem: 'Seguir o sistema',
+    themeLight: 'Claro',
+    themeDark: 'Escuro',
   },
   footer: {
     fonts: 'Todos os tipos são servidos por este sítio com a respetiva licença aberta (SIL OFL 1.1 ou Apache 2.0).',
@@ -312,7 +316,7 @@ export const pt: Messages = {
     title: 'Privacidade',
     lead: 'Este sítio é estático. Não tem código de servidor, contas, cookies nem análise.',
     sections: [
-      { title: 'Dados que introduz', text: 'Os projetos, as definições e o idioma da interface ficam no armazenamento local do navegador, neste dispositivo. Não são enviados para lado nenhum. Limpar os dados do sítio ou usar o botão abaixo remove-os.' },
+      { title: 'Dados que introduz', text: 'Os projetos, as definições, o idioma da interface e o esquema de cores ficam no armazenamento local do navegador, neste dispositivo. Não são enviados para lado nenhum. Limpar os dados do sítio ou usar o botão abaixo remove-os.' },
       { title: 'Ligações de partilha', text: 'Uma ligação de partilha leva o projeto no fragmento do URL (depois de #). Os navegadores não enviam o fragmento ao servidor, mas quem receber a ligação pode ler o conteúdo.' },
       { title: 'Tipos e outros pedidos', text: 'Tipos, scripts e estilos são servidos a partir da mesma origem desta página. Uma Content-Security-Policy bloqueia pedidos a outras origens.' },
       { title: 'Alojamento', text: 'Quem aloja estes ficheiros pode conservar registos de acesso habituais (como o endereço IP e a hora) segundo a sua própria política. Este projeto não recebe nem trata esses registos.' },

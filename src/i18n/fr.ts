@@ -30,6 +30,10 @@ export const fr: Messages = {
     legal: 'Mentions',
     privacy: 'Confidentialité',
     language: 'Langue de l’interface',
+    theme: 'Jeu de couleurs',
+    themeSystem: 'Suivre le système',
+    themeLight: 'Clair',
+    themeDark: 'Sombre',
   },
   footer: {
     fonts: 'Tous les caractères sont servis par ce site sous leur licence ouverte (SIL OFL 1.1 ou Apache 2.0).',
@@ -312,7 +316,7 @@ export const fr: Messages = {
     title: 'Confidentialité',
     lead: 'Ce site est statique. Il n’a pas de code serveur, de comptes, de cookies ni de mesure d’audience.',
     sections: [
-      { title: 'Données que vous saisissez', text: 'Les projets, les réglages et la langue de l’interface sont stockés dans le stockage local de votre navigateur, sur cet appareil. Ils ne sont envoyés nulle part. Effacer les données du site ou utiliser le bouton ci-dessous les supprime.' },
+      { title: 'Données que vous saisissez', text: 'Les projets, les réglages, la langue de l’interface et le jeu de couleurs sont stockés dans le stockage local de votre navigateur, sur cet appareil. Ils ne sont envoyés nulle part. Effacer les données du site ou utiliser le bouton ci-dessous les supprime.' },
       { title: 'Liens de partage', text: 'Un lien de partage porte le projet dans le fragment d’URL (après #). Les navigateurs n’envoient pas le fragment au serveur, mais toute personne à qui vous donnez le lien peut en lire le contenu.' },
       { title: 'Caractères et autres requêtes', text: 'Les caractères, scripts et styles sont servis depuis la même origine que cette page. Une Content-Security-Policy bloque les requêtes vers d’autres origines.' },
       { title: 'Hébergement', text: 'L’hébergeur qui sert ces fichiers peut conserver des journaux d’accès ordinaires (adresse IP et heure, par exemple) selon sa propre politique. Ce projet ne reçoit ni ne traite ces journaux.' },

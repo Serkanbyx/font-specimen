@@ -30,6 +30,10 @@ export const tr: Messages = {
     legal: 'Hukuki',
     privacy: 'Gizlilik',
     language: 'Arayüz dili',
+    theme: 'Renk düzeni',
+    themeSystem: 'Sisteme uy',
+    themeLight: 'Açık',
+    themeDark: 'Koyu',
   },
   footer: {
     fonts: 'Tüm yazı tipleri açık lisanslarıyla (SIL OFL 1.1 veya Apache 2.0) bu siteden sunulur.',
@@ -336,7 +340,7 @@ export const tr: Messages = {
     sections: [
       {
         title: 'Girdiğiniz veriler',
-        text: 'Projeler, ayarlar ve arayüz dili bu cihazdaki tarayıcınızın yerel depolamasında tutulur. Hiçbir yere gönderilmez. Site verilerini temizlemek ya da aşağıdaki düğme bunları siler.',
+        text: 'Projeler, ayarlar, arayüz dili ve renk düzeni bu cihazdaki tarayıcınızın yerel depolamasında tutulur. Hiçbir yere gönderilmez. Site verilerini temizlemek ya da aşağıdaki düğme bunları siler.',
       },
       {
         title: 'Paylaşım bağlantıları',

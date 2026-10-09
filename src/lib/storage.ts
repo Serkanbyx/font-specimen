@@ -1,8 +1,9 @@
 import { useSyncExternalStore } from 'react';
 import { projectSchema, type Project } from './project.ts';
+import { resetTheme, themeKey } from './theme.ts';
 
 const projectsKey = 'font-specimen:projects:v1';
-export const storageKeys = [projectsKey, 'font-specimen:locale'] as const;
+export const storageKeys = [projectsKey, 'font-specimen:locale', themeKey] as const;
 
 let cache: Project[] | null = null;
 let lastError: string | null = null;
@@ -73,6 +74,7 @@ export const projectStore = {
     } catch {
       // Storage may be disabled; there is nothing left to clear then.
     }
+    resetTheme();
     emit();
   },
   lastError(): string | null {

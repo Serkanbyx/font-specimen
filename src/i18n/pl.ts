@@ -30,6 +30,10 @@ export const pl: Messages = {
     legal: 'Informacje prawne',
     privacy: 'Prywatność',
     language: 'Język interfejsu',
+    theme: 'Schemat kolorów',
+    themeSystem: 'Jak w systemie',
+    themeLight: 'Jasny',
+    themeDark: 'Ciemny',
   },
   footer: {
     fonts: 'Wszystkie kroje są udostępniane z tej witryny na otwartej licencji (SIL OFL 1.1 lub Apache 2.0).',
@@ -312,7 +316,7 @@ export const pl: Messages = {
     title: 'Prywatność',
     lead: 'Ta witryna jest statyczna. Nie ma kodu serwerowego, kont, ciasteczek ani analityki.',
     sections: [
-      { title: 'Dane, które wpisujesz', text: 'Projekty, ustawienia i język interfejsu są przechowywane w pamięci lokalnej przeglądarki na tym urządzeniu. Nigdzie nie są wysyłane. Wyczyszczenie danych witryny albo przycisk poniżej je usuwa.' },
+      { title: 'Dane, które wpisujesz', text: 'Projekty, ustawienia, język interfejsu i schemat kolorów są przechowywane w pamięci lokalnej przeglądarki na tym urządzeniu. Nigdzie nie są wysyłane. Wyczyszczenie danych witryny albo przycisk poniżej je usuwa.' },
       { title: 'Odnośniki udostępniania', text: 'Odnośnik udostępniania niesie projekt we fragmencie adresu (po #). Przeglądarki nie wysyłają fragmentu na serwer, ale kto dostanie odnośnik, może odczytać treść.' },
       { title: 'Kroje i inne żądania', text: 'Kroje, skrypty i style są serwowane z tego samego pochodzenia co ta strona. Content-Security-Policy blokuje żądania do innych pochodzeń.' },
       { title: 'Hosting', text: 'Podmiot serwujący te pliki może prowadzić zwykłe dzienniki dostępu (na przykład adres IP i czas) według własnej polityki. Ten projekt tych dzienników nie otrzymuje ani nie przetwarza.' },

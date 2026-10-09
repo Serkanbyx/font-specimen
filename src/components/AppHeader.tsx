@@ -1,6 +1,7 @@
 import { useI18n } from '../i18n/I18nProvider.tsx';
 import { href, type Route } from '../router.ts';
 import { LocaleSwitch } from './LocaleSwitch.tsx';
+import { ThemeSwitch } from './ThemeSwitch.tsx';
 
 export function AppHeader({ route }: { route: Route }) {
   const { t } = useI18n();
@@ -28,7 +29,10 @@ export function AppHeader({ route }: { route: Route }) {
             ))}
           </ul>
         </nav>
-        <LocaleSwitch />
+        <div className="app-header__tools">
+          <ThemeSwitch />
+          <LocaleSwitch />
+        </div>
       </div>
     </header>
   );

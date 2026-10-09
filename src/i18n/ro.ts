@@ -30,6 +30,10 @@ export const ro: Messages = {
     legal: 'Mențiuni legale',
     privacy: 'Confidențialitate',
     language: 'Limba interfeței',
+    theme: 'Schemă de culori',
+    themeSystem: 'Ca în sistem',
+    themeLight: 'Luminos',
+    themeDark: 'Întunecat',
   },
   footer: {
     fonts: 'Toate fonturile sunt servite de pe acest site sub licența lor deschisă (SIL OFL 1.1 sau Apache 2.0).',
@@ -312,7 +316,7 @@ export const ro: Messages = {
     title: 'Confidențialitate',
     lead: 'Acest site este static. Nu are cod de server, conturi, cookie-uri sau analiză.',
     sections: [
-      { title: 'Datele pe care le introduci', text: 'Proiectele, setările și limba interfeței sunt păstrate în stocarea locală a browserului, pe acest dispozitiv. Nu sunt trimise nicăieri. Ștergerea datelor site-ului sau butonul de mai jos le elimină.' },
+      { title: 'Datele pe care le introduci', text: 'Proiectele, setările, limba interfeței și schema de culori sunt păstrate în stocarea locală a browserului, pe acest dispozitiv. Nu sunt trimise nicăieri. Ștergerea datelor site-ului sau butonul de mai jos le elimină.' },
       { title: 'Legături de partajare', text: 'O legătură de partajare poartă proiectul în fragmentul URL-ului (după #). Browserele nu trimit fragmentul serverului, dar cine primește legătura îi poate citi conținutul.' },
       { title: 'Fonturi și alte cereri', text: 'Fonturile, scripturile și stilurile sunt servite din aceeași origine ca această pagină. O Content-Security-Policy blochează cererile către alte origini.' },
       { title: 'Găzduire', text: 'Cine servește aceste fișiere poate păstra jurnale de acces obișnuite (de exemplu adresa IP și ora) conform propriei politici. Acest proiect nu primește și nu prelucrează acele jurnale.' },

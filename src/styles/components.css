@@ -58,6 +58,59 @@
   background: var(--surface-alt);
 }
 
+.app-header__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.theme-switch {
+  display: flex;
+  gap: 2px;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  min-inline-size: 0;
+}
+
+.theme-switch__option {
+  position: relative;
+  display: grid;
+}
+
+.theme-switch__option input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.theme-switch__face {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: calc(var(--radius) - 2px);
+  color: var(--muted);
+}
+
+.theme-switch__option:hover .theme-switch__face {
+  color: var(--text);
+  background: var(--surface-alt);
+}
+
+.theme-switch__option input:checked + .theme-switch__face {
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
+.theme-switch__option input:focus-visible + .theme-switch__face {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
 .app-header__locale {
   position: relative;
 }
@@ -140,7 +193,7 @@
     min-height: 36px;
   }
 
-  .app-header__locale {
+  .app-header__tools {
     grid-column: 2;
     grid-row: 1;
   }
@@ -638,8 +691,9 @@
   font-family: var(--mono-font);
   font-size: 0.8125rem;
   line-height: 1.6;
-  color: #e7e5e4;
-  background: #1c1917;
+  color: var(--code-text);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
 }
 

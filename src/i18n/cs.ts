@@ -30,6 +30,10 @@ export const cs: Messages = {
     legal: 'Právní informace',
     privacy: 'Soukromí',
     language: 'Jazyk rozhraní',
+    theme: 'Barevné schéma',
+    themeSystem: 'Podle systému',
+    themeLight: 'Světlý',
+    themeDark: 'Tmavý',
   },
   footer: {
     fonts: 'Všechna písma se z tohoto webu doručují pod otevřenou licencí (SIL OFL 1.1 nebo Apache 2.0).',
@@ -312,7 +316,7 @@ export const cs: Messages = {
     title: 'Soukromí',
     lead: 'Tento web je statický. Nemá serverový kód, účty, cookies ani analytiku.',
     sections: [
-      { title: 'Údaje, které zadáte', text: 'Projekty, nastavení a jazyk rozhraní se ukládají do místního úložiště prohlížeče na tomto zařízení. Nikam se neodesílají. Vymazání dat webu nebo tlačítko níže je odstraní.' },
+      { title: 'Údaje, které zadáte', text: 'Projekty, nastavení, jazyk rozhraní a barevné schéma se ukládají do místního úložiště prohlížeče na tomto zařízení. Nikam se neodesílají. Vymazání dat webu nebo tlačítko níže je odstraní.' },
       { title: 'Odkazy ke sdílení', text: 'Odkaz ke sdílení nese projekt ve fragmentu adresy (za #). Prohlížeče fragment na server neposílají, ale kdo odkaz dostane, může obsah přečíst.' },
       { title: 'Písma a další požadavky', text: 'Písma, skripty a styly se doručují ze stejného původu jako tato stránka. Content-Security-Policy blokuje požadavky na jiné původy.' },
       { title: 'Hosting', text: 'Kdo tyto soubory doručuje, může podle vlastních zásad vést běžné přístupové záznamy (například IP adresu a čas). Tento projekt ty záznamy nedostává ani nezpracovává.' },

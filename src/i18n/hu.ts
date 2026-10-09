@@ -30,6 +30,10 @@ export const hu: Messages = {
     legal: 'Jogi tudnivalók',
     privacy: 'Adatvédelem',
     language: 'A felület nyelve',
+    theme: 'Színséma',
+    themeSystem: 'Rendszer szerint',
+    themeLight: 'Világos',
+    themeDark: 'Sötét',
   },
   footer: {
     fonts: 'Minden betűtípust ez a webhely szolgál ki a nyílt licence alatt (SIL OFL 1.1 vagy Apache 2.0).',
@@ -312,7 +316,7 @@ export const hu: Messages = {
     title: 'Adatvédelem',
     lead: 'Ez a webhely statikus. Nincs kiszolgálóoldali kódja, fiókja, sütije vagy analitikája.',
     sections: [
-      { title: 'Az adatok, amelyeket megadsz', text: 'A projektek, a beállítások és a felület nyelve a böngésző helyi tárolójában vannak ezen az eszközön. Sehova sem küldjük őket. A webhely adatainak törlése vagy az alábbi gomb eltávolítja őket.' },
+      { title: 'Az adatok, amelyeket megadsz', text: 'A projektek, a beállítások, a felület nyelve és a színséma a böngésző helyi tárolójában vannak ezen az eszközön. Sehova sem küldjük őket. A webhely adatainak törlése vagy az alábbi gomb eltávolítja őket.' },
       { title: 'Megosztó hivatkozások', text: 'A megosztó hivatkozás a projektet az URL töredékében viszi (a # után). A böngészők a töredéket nem küldik a kiszolgálónak, de aki megkapja a hivatkozást, elolvashatja a tartalmat.' },
       { title: 'Betűk és más kérések', text: 'A betűk, szkriptek és stílusok ugyanabból az eredetből jönnek, mint ez az oldal. A Content-Security-Policy blokkolja a más eredetek felé menő kéréseket.' },
       { title: 'Tárhely', text: 'Aki ezeket a fájlokat kiszolgálja, a saját szabályzata szerint szokásos hozzáférési naplókat vezethet (például IP-címet és időt). Ez a projekt ezeket a naplókat nem kapja meg és nem dolgozza fel.' },

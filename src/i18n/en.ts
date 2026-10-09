@@ -28,6 +28,10 @@ export const en = {
     legal: 'Legal',
     privacy: 'Privacy',
     language: 'Interface language',
+    theme: 'Colour scheme',
+    themeSystem: 'Match system',
+    themeLight: 'Light',
+    themeDark: 'Dark',
   },
   footer: {
     fonts: 'Every typeface is served from this site under its open licence (SIL OFL 1.1 or Apache 2.0).',
@@ -334,7 +338,7 @@ export const en = {
     sections: [
       {
         title: 'Data you enter',
-        text: 'Projects, settings and the interface language are stored in your browser’s local storage on this device. They are not sent anywhere. Clearing site data or using the button below removes them.',
+        text: 'Projects, settings, the interface language and the colour scheme are stored in your browser’s local storage on this device. They are not sent anywhere. Clearing site data or using the button below removes them.',
       },
       {
         title: 'Share links',

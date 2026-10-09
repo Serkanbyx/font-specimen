@@ -30,6 +30,10 @@ export const sv: Messages = {
     legal: 'Juridiskt',
     privacy: 'Integritet',
     language: 'Gränssnittets språk',
+    theme: 'Färgschema',
+    themeSystem: 'Följ systemet',
+    themeLight: 'Ljust',
+    themeDark: 'Mörkt',
   },
   footer: {
     fonts: 'Alla typsnitt levereras från den här webbplatsen under sin öppna licens (SIL OFL 1.1 eller Apache 2.0).',
@@ -312,7 +316,7 @@ export const sv: Messages = {
     title: 'Integritet',
     lead: 'Den här webbplatsen är statisk. Den har ingen serverkod, inga konton, inga kakor och ingen analys.',
     sections: [
-      { title: 'Uppgifter du skriver in', text: 'Projekt, inställningar och gränssnittets språk lagras i webbläsarens lokala lagring på den här enheten. De skickas ingenstans. Att rensa webbplatsdata eller använda knappen nedan tar bort dem.' },
+      { title: 'Uppgifter du skriver in', text: 'Projekt, inställningar, gränssnittets språk och färgschemat lagras i webbläsarens lokala lagring på den här enheten. De skickas ingenstans. Att rensa webbplatsdata eller använda knappen nedan tar bort dem.' },
       { title: 'Delningslänkar', text: 'En delningslänk bär projektet i URL-fragmentet (efter #). Webbläsare skickar inte fragmentet till servern, men den du ger länken kan läsa innehållet.' },
       { title: 'Typsnitt och andra anrop', text: 'Typsnitt, skript och stilar levereras från samma ursprung som den här sidan. En Content-Security-Policy blockerar anrop till andra ursprung.' },
       { title: 'Drift', text: 'Den som levererar de här filerna kan spara vanliga åtkomstloggar (till exempel IP-adress och tid) enligt sin egen integritetspolicy. Det här projektet tar inte emot eller behandlar de loggarna.' },
